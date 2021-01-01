@@ -1,4 +1,4 @@
-* {
+* ,div ,a{
     line-height: inherit;
     text-decoration: none;
 }
@@ -10,6 +10,16 @@
 }
 .blue {
     color: #009adc;
+}
+.btn-blue {
+    background-color: #009adc;
+    color: #FFF;
+}
+.text-blue {
+    color: #009adc;
+}
+.bg-blue {
+    background-color: #009adc ;
 }
 
 .far {
@@ -36,7 +46,7 @@
 
 
 #give-window {
-    height: 40vh;
+    padding: 10px 0;
     -webkit-box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
     -moz-box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
     box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
@@ -79,6 +89,11 @@
     margin: auto 15px;
     font-size: 2.2rem;
 }
+.agir {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: #FFF;
+}
+
 
 /* CARDS */
 
@@ -109,4 +124,46 @@
 }
 .more-btn {
     width: 100%;
+}
+
+.mail-bar {
+    width: 90%;
+}
+#email {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    height: 35px;
+}
+.btn-ok {
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* =================== CONTACT =====================*/
+
+.social-footer {
+    background-color: #000;
+}
+.circle {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.circle a {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.contact a {
+    color: #FFF;
+    font-size: .8rem;
+}
+.contact-link::after {
+    content: " -\A0";
 }
