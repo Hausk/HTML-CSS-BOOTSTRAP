@@ -1,0 +1,112 @@
+* {
+    line-height: inherit;
+    text-decoration: none;
+}
+.white {
+    color: #FFF;
+}
+.dark {
+    color: #2d3436;
+}
+.blue {
+    color: #009adc;
+}
+
+.far {
+    line-height: inherit !important;
+}
+
+.edging {
+    height: 35px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.give, .act {
+    width: 50%;
+    margin-top: 0;
+}
+.act p {
+    margin: auto;
+}
+.give p {
+    margin: auto 0;
+}
+.edging .far {
+    margin: auto 15px auto 0;
+}
+
+
+#give-window {
+    height: 40vh;
+    -webkit-box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
+    -moz-box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
+    box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
+}
+
+#close {
+    right: 10px;
+}
+.give-window-content-text {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+}
+.bg-asso {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bg-text {
+    width: 97%;
+    background: #009adc;
+    margin: auto 0 auto auto;
+    padding: 15px;
+    position: relative;
+    top: -45px;
+    color: #FFF;
+}
+.bg-text h1 {
+    margin: auto 15px;
+    font-size: 2.2rem;
+}
+
+/* CARDS */
+
+.last-cards {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    border: inherit;
+}
+.card-body-last {
+    background: #FFF;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    top: -40px;
+    border: 1px solid rgba(0,0,0,0.67);
+}
+.tag {
+    left: 15px;
+}
+
+.acted-bg {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.more-btn {
+    width: 100%;
+}
