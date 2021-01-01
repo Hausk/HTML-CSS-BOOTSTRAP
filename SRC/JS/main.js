@@ -4,12 +4,12 @@ donationWindow()
 function donationWindow() {
     console.log('debut')
     var button = document.getElementById('close');
-    button.onclick = showAlert;
+    button.onclick = closeWindow;
     console.log('Engagé')
 }
 
 
-function showAlert() {
+function closeWindow() {
     var giftwindow = document.getElementById('give-window');
     giftwindow.style.display = 'none';
 }
