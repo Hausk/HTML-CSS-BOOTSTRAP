@@ -47,6 +47,7 @@
 
 #give-window {
     padding: 10px 0;
+    height: 40vh;
     -webkit-box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
     -moz-box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
     box-shadow: inset 0px 38px 25px -23px rgba(0,0,0,0.67);
@@ -60,7 +61,7 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     margin: auto;
 }
 .bg-asso {
@@ -141,6 +142,11 @@
 }
 
 /* =================== CONTACT =====================*/
+
+
+#email::placeholder {
+    padding: 0 0 0 25px;
+}
 
 .social-footer {
     background-color: #000;

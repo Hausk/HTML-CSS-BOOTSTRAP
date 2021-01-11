@@ -33,13 +33,35 @@
         </nav>
     </header>
 
-    <div class="months">
-        <div class="prev arrow"></div>
-            <div class="actual-month">
-                <h4>Janv.</h4>
-                <p>2021</p>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="january" data-bs-interval="999999">
+                <div class="carousel-caption d-md-block m-auto">
+                    <h5>Janvier</h5>
+                    <p>2021</p>
+                </div>
             </div>
-        <div class="next arrow"></div>
+            <div class="carousel-item" id="febuary">
+                <div class="carousel-caption d-md-block">
+                    <h5>Fevrier</h5>
+                    <p>2021</p>
+                </div>
+            </div>
+            <div class="carousel-item" id="march">
+                <div class="carousel-caption d-md-block">
+                    <h5>Mars</h5>
+                    <p>2021</p>
+                </div>
+            </div>
+        </div>
+        <a id="prev" class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a id="next" class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
     </div>
     <div class="container">
         
@@ -48,7 +70,7 @@
                 <div class="acted pt-2">
                     <h2 class="calendar">Agenda</h2>
                 </div>
-                <div class="act-cards-list">
+                <div class="act-cards-list" id="january-list">
                     
                     <div class="card my-4">
                         <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
@@ -57,7 +79,7 @@
                             <h3 class="title-card-act fw-bolder">Titre</h3>
                             <p class="sm-text text-muted">Actuellement au 20.02.21</p>
                             <div class="interest d-flex">
-                                <a class="btn btn-blue mx-auto mt-4">Je partipe</a>
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
                             </div>
                         </div>
                     </div>
@@ -67,9 +89,9 @@
                         <div class="card-body rounded">
                             <h4 class="Blue">Paris</h4>
                             <h3 class="title-card-act fw-bolder">Titre</h3>
-                            <p class="sm-text text-muted">Du 07.01.21 au 12.02.21</p>
+                            <p class="sm-text text-muted">Du 21.01.21 au 12.02.21</p>
                             <div class="interest d-flex">
-                                <a class="btn btn-blue mx-auto mt-4">Je partipe</a>
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
                             </div>
                         </div>
                     </div>
@@ -81,18 +103,105 @@
                             <h3 class="title-card-act fw-bolder">Titre</h3>
                             <p class="sm-text text-muted">Le 20.01.21</p>
                             <div class="interest d-flex">
-                                <a class="btn btn-blue mx-auto mt-4">Je partipe</a>
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
                             </div>
                         </div>
                     </div>
                     <div class="more-btn d-flex">
-                        <a class="btn btn-outline-light mx-auto mb-4">Voir la liste</a>
+                        <a class="btn btn-outline-dark mx-auto mb-4">Voir la liste</a>
                     </div>
                 </div>
+
+                <div class="act-cards-list" id="febuary-list">
+                    
+                    <div class="card my-4">
+                        <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
+                        <div class="card-body rounded">
+                            <h4 class="Blue">Paris</h4>
+                            <h3 class="title-card-act fw-bolder">Titre</h3>
+                            <p class="sm-text text-muted">Actuellement au 20.02.21</p>
+                            <div class="interest d-flex">
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card my-4">
+                        <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
+                        <div class="card-body rounded">
+                            <h4 class="Blue">Paris</h4>
+                            <h3 class="title-card-act fw-bolder">Titre</h3>
+                            <p class="sm-text text-muted">Du 21.01.21 au 12.02.21</p>
+                            <div class="interest d-flex">
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card my-4">
+                        <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
+                        <div class="card-body rounded">
+                            <h4 class="Blue">Paris</h4>
+                            <h3 class="title-card-act fw-bolder">Titre</h3>
+                            <p class="sm-text text-muted">Le 22.02.21</p>
+                            <div class="interest d-flex">
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-btn d-flex">
+                        <a class="btn btn-outline-dark mx-auto mb-4">Voir la liste</a>
+                    </div>
+                </div>
+
+                <div class="act-cards-list" id="march-list">
+                    
+                    <div class="card my-4">
+                        <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
+                        <div class="card-body rounded">
+                            <h4 class="Blue">Paris</h4>
+                            <h3 class="title-card-act fw-bolder">Titre</h3>
+                            <p class="sm-text text-muted">Du 05.03.21 au 10.03.21</p>
+                            <div class="interest d-flex">
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card my-4">
+                        <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
+                        <div class="card-body rounded">
+                            <h4 class="Blue">Paris</h4>
+                            <h3 class="title-card-act fw-bolder">Titre</h3>
+                            <p class="sm-text text-muted">Le 15.03.21</p>
+                            <div class="interest d-flex">
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card my-4">
+                        <img src="./SRC/IMG/Chalet.jpg" class="card-img-top" alt="Chalet dans la neige">
+                        <div class="card-body rounded">
+                            <h4 class="Blue">Paris</h4>
+                            <h3 class="title-card-act fw-bolder">Titre</h3>
+                            <p class="sm-text text-muted">Le 25.03.21</p>
+                            <div class="interest d-flex">
+                                <a class="btn btn-blue mx-auto mt-3">Je partipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-btn d-flex">
+                        <a class="btn btn-outline-dark mx-auto mb-4">Voir la liste</a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
     </div>
+
+
     <section id="footer">
         <div class="bg-informed bg-blue text-center py-4 text-light">
             <h5 class="text-uppercase mb-0">Restez informé(e)</h5>
@@ -142,5 +251,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./SRC/JS/events.js"></script>
 </body>
 </html>
