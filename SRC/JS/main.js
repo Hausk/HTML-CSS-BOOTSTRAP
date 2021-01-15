@@ -14,8 +14,10 @@ function closeWindow() {
 }
 
 function donateButton() {
-    var donate = document.getElementById('donate');
-    donate.onclick = donationClick;
+    var donateUp = document.getElementById('donate-btn');
+    var donateDown = document.getElementById('donation-window');
+    donateUp.onclick = donationClick;
+    donateDown.onclick = donationClick; 
 }
 
 function donationClick() {
